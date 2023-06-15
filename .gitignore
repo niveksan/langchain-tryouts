@@ -1,2 +1,6 @@
 .env
 launch.json
+.venv
+.vscode
+.python-version
+__pycache__

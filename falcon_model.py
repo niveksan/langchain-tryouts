@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv, find_dotenv     # pip install python-dotenv
-from langchain import HuggingFaceHub            # pip install langchain
+from langchain import HuggingFaceHub            # pip install langchain && pip install huggingface_hub
 from langchain import PromptTemplate, LLMChain, OpenAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains.summarize import load_summarize_chain
