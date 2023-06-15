@@ -2,7 +2,7 @@ import os
 import streamlit as st                          # pip install streamlit
 
 from dotenv import load_dotenv, find_dotenv     # pip install python-dotenv
-from langchain import HuggingFaceHub            # pip install langchain && pip install huggingface_hub
+from langchain import HuggingFaceHub            # pip install langchain huggingface_hub
 
 
 # Load the HuggingFaceHub API token from the .env file
